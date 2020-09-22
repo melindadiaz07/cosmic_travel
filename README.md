@@ -1,5 +1,5 @@
 ## Task
-
+<!-- 
 It is the year 2100 and you run an interplanetary space travel agency.  You are building a website to book scientists on missions to other planets.  You already have built out your planetary database to perform all CRUD actions on the planets you travel to.  It is your job to build out Scientist and Mission models so that scientists can book their missions.  **In a given mission, one scientist will visit one planet**.  Over their careers, **scientists will visit many planets** and **planets will be visited by many scientists**.
 
 ## Instructions
@@ -17,7 +17,7 @@ It is the year 2100 and you run an interplanetary space travel agency.  You are 
 
     - A user should be able to see a list of all scientists
 
-    - Clicking on a scientist should take you to a detail page about the scientist, including listing all the planets they have visited.
+    - Clicking on a scientist should take you to a detail page about the scientist, including listing all the planets they have visited. -->
 
     - A user should be able to create a new scientist.
         - Scientists must have a name and a field of study
