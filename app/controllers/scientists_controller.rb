@@ -20,6 +20,15 @@ class ScientistsController < ApplicationController
         redirect_to scientists_path
     end
 
+    def edit
+        @scientist = Scientist.find(params[:id])
+    end
+
+    def update
+        scientist = Scientist.find(params[:scientist][:id])
+        scientist.update(scientist_params(:name, :field_of_study))
+    end
+
 
     private
 
@@ -27,6 +36,7 @@ class ScientistsController < ApplicationController
         params.require(:scientist).permit(*args)
     end
 
+    #build method to find scientist
    
 
 end
